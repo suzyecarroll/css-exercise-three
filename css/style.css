@@ -1,13 +1,8 @@
-h1 {
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-h3 {
-  font-family: sans-serif;
-  font-size: 14px;
-  padding-top: 4px;
+.arrow {
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  margin-top: -30px;
 }
 
 body {
@@ -22,35 +17,43 @@ body {
   width: 420px;
 }
 
+.content h1 {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content h3 {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+.location {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(0,0,0, .5);
+  display: block;
+  padding: 20px;
+}
+
+.location:hover {
+  background-color: #B4B2B4;
+  box-sizing: border-box;
+}
+
 nav {
+  background-color: #000000;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
-  background-color: #000000;
 }
 
 .restaurant-list {
   background-color: #DFDEE0;
   box-sizing: border-box;
   padding-top: 50px;
-}
-
-.location {
-  box-sizing: border-box;
-  display: block;
-  border-bottom: 1px solid rgb(0,0,0, .5);
-  padding: 20px;
-}
-
-.location:hover {
-  box-sizing: border-box;
-  background-color: #B4B2B4;
-}
-
-.arrow {
-  display: inline-block;
-  float: right;
-  margin-top: -30px;
 }
